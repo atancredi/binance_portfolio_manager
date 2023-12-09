@@ -2,3 +2,5 @@ venv/
 secret
 .idea/
 __pycache__/
+config_*
+*.json
