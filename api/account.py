@@ -1,5 +1,5 @@
 
-from binance import Client
+from binance.client import Client
 
 
 class Account:
@@ -8,6 +8,9 @@ class Account:
 
     def get_account(self):
         return self.__client.get_account()
+    
+    def get_coin_balance(self, symbol):
+        return self.__client.get_asset_balance(asset=symbol)
 
     def get_spot_balance(self):
         spot_balance_list = []

@@ -12,3 +12,5 @@ querying orders will be in class Orders. All such classes are accessible via the
     * Create a file called 'secret' and store API_KEY and API_SECRET in it. Use attached example file.
     * Set API_KEY and API_SECRET environment variables.
     
+# Filters to check in orders
+https://stackoverflow.com/questions/61582902/python-binance-api-apierrorcode-1013-filter-failure-lot-size

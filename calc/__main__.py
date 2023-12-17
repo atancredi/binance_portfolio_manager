@@ -13,7 +13,7 @@ for ticker in client.get_all_tickers():
     all_tickers[ticker["symbol"]] = ticker["price"]
 
 # Binance object is created
-ignore_coins = ["EASY","LDAXS"]
+ignore_coins = ["EASY","LDAXS","BNB"]
 balances = []
 for balance in client.get_account()['balances']:
     if balance["asset"] in ignore_coins:
